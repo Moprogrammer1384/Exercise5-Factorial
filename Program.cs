@@ -3,6 +3,7 @@
 // Lesson Name : Advanced Programming (1)
 // Practice Number : 5
 //***********************************
+using System.Numerics;
 
 while (true)
 {
@@ -18,7 +19,7 @@ while (true)
         Console.WriteLine("Please enter a correct number!!!!");
         continue;
     }
-    int Result = 1;
+    BigInteger Result = 1;
     for (int i = 1; i <= Number; i++)
     {
         Result *= i;
